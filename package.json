@@ -1,6 +1,10 @@
 {
-  "repository": "#",
-  "license": "UNLICENSED",
+  "repository": "https://github.com/theringsofsaturn/virtual-tour",
+  "author": {
+    "name": "theringsofsaturn",
+    "email": "emiliankasemi@gmail.com"
+  },
+  "license": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
   "scripts": {
     "build": "webpack --config ./bundler/webpack.prod.js",
     "dev": "webpack serve --config ./bundler/webpack.dev.js"
@@ -13,6 +17,7 @@
     "copy-webpack-plugin": "^10.2.4",
     "css-loader": "^6.7.1",
     "file-loader": "^6.2.0",
+    "gsap": "^3.11.3",
     "html-loader": "^3.1.0",
     "html-webpack-plugin": "^5.5.0",
     "lil-gui": "^0.16.1",
